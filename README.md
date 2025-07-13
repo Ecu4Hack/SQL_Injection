@@ -62,9 +62,9 @@ password
 
 !Imagen
 
-!imagen1.png
+![alt_text](image1.png "image_tooltip")
 
-!imagen2.png
+![alt_text](image2.png "image_tooltip")
 
 Una vez dentro, ve a la pestaña "Setup / Reset DB" para inicializar la base de datos.
 
