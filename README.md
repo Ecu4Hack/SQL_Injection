@@ -2,14 +2,14 @@
 
 Hoy en día existen muchísimos sitios que ofrecen cursos y capacitaciones de todo tipo. Para alguien que recién comienza en el mundo de la ciberseguridad, tanta información puede resultar abrumadora. Por eso nace este espacio como un aporte a la comunidad de habla hispana, con el objetivo de orientar, compartir conocimientos y facilitar el aprendizaje paso a paso.
 
-# Requerimientos
+## Requerimientos
 Descargar la ISO de Kali Linux X86_64 que pesa 4.1GB: 
 ```bash
 https://www.kali.org/get-kali/#kali-platforms 
 ```
 Esta ISO usa el hash SHA256 para validar la integridad de tu descarga, mi hash de descarga es 5723d46414b45575aa8e199740bbfde49e5b2501715ea999f0573e94d61e39d3 
 
-# Instalacion de Kali y docker DVWA
+## Instalacion de Kali y docker DVWA
 En el siguiente link podemos ver la instalación de Kali Linux en computadoras de escritorio y portátiles mediante archivos ".ISO" (x64/x86)
 ```bash
 https://www-kali-org.translate.goog/docs/installation/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
@@ -60,6 +60,6 @@ password
 ```
 Una vez dentro, ve a la pestaña "Setup / Reset DB" para inicializar la base de datos.
 
-# Consultas SQL en pagina web
+## Consultas SQL en pagina web
 
 
