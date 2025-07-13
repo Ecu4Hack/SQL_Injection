@@ -47,6 +47,7 @@ sudo docker run -d -p 80:80 vulnerables/web-dvwa
 -p 80:80: expone el puerto 80 del contenedor al puerto 80 de tu máquina.
 
 Accede al DVWA desde tu navegador:
+
 ```bash
 http://localhost
 ```
@@ -60,6 +61,30 @@ password
 ```
 Una vez dentro, ve a la pestaña "Setup / Reset DB" para inicializar la base de datos.
 
+Configuración de DVWA
+
+Acceda al elemento de menú “Seguridad DVWA” desde la barra lateral izquierda, cerca de la parte inferior. 
+
+DVWA ofrece cuatro opciones para configurar el nivel de dificultad de sus pruebas de penetración: Bajo , Medio , Alto y una opción adicional llamada Imposible . Estas cuatro opciones determinan la vulnerabilidad de DVWA a sus ataques.
+
+### Bajo: 
+
+Esta es la configuración predeterminada para la instalación de Docker. Este nivel de seguridad es completamente vulnerable y no cuenta con ninguna medida de seguridad. Sirve como ejemplo de cómo las vulnerabilidades de las aplicaciones web se manifiestan a través de malas prácticas de programación y sirve como plataforma para enseñar o aprender técnicas básicas de explotación.
+
+### Medio: 
+
+Esta configuración demuestra principalmente malas prácticas de seguridad al mostrar cómo el desarrollador intentó, sin éxito, proteger una aplicación. También insta a los usuarios a perfeccionar sus técnicas de explotación.
+
+### Alto: 
+
+Esta opción es una extensión del nivel Medio, y los desarrolladores han implementado una combinación de malas prácticas más difíciles o alternativas para proteger el código. Las vulnerabilidades en este nivel limitan su explotación, similar a cómo se gestionan las competiciones de Capturar la Bandera (CTF).
+
+### Imposible: 
+
+Esta es la configuración predeterminada para la instalación de Kali Linux. Debe comparar el código fuente vulnerable con el código fuente relativamente seguro de los desarrolladores.
+
 ## Consultas SQL en pagina web
 
-
+```bash
+http://localhost:8080/login.php
+```
