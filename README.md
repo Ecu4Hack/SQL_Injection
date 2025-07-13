@@ -59,6 +59,9 @@ admin
 #Contraseña: 
 password
 ```
+!Imagen
+
+
 Una vez dentro, ve a la pestaña "Setup / Reset DB" para inicializar la base de datos.
 
 ## Configuración de DVWA
