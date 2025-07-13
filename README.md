@@ -5,7 +5,7 @@ Hoy en día existen muchísimos sitios que ofrecen cursos y capacitaciones de to
 ## Requerimientos
 Descargar la ISO de Kali Linux X86_64 que pesa 4.1GB: 
 ```bash
-https://www.kali.org/get-kali/``` 
+https://www.kali.org/get-kali/ 
 ```
 Esta ISO usa el hash SHA256 para validar la integridad de tu descarga, mi hash de descarga es 5723d46414b45575aa8e199740bbfde49e5b2501715ea999f0573e94d61e39d3 
 
