@@ -27,7 +27,21 @@ https://www-kali-org.translate.goog/docs/installation/?_x_tr_sl=en&_x_tr_tl=es&_
 
 #sudo apt install docker-compose -y
 
+*Descarga la Imagen DVWA desde docker hub:
 
+#sudo docker pull vulnerables/web-dvwa
+
+*Ejecuta DVWA en un contenedor:
+
+sudo docker run -d -p 80:80 vulnerables/web-dvwa
+
+-d: ejecuta el contenedor en segundo plano.
+
+-p 80:80: expone el puerto 80 del contenedor al puerto 80 de tu máquina.
+
+*Accede al DVWA desde tu navegador:
+
+#http://localhost
 
 # Consultas SQL en pagina web
 
