@@ -60,8 +60,8 @@ admin
 password
 ```
 !Imagen
-!SQL_Injection - imagen 1.png
-
+!SQL_Injection - imagen1.png
+!SQL_Injection - imagen2.png
 
 Una vez dentro, ve a la pestaña "Setup / Reset DB" para inicializar la base de datos.
 
