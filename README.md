@@ -60,9 +60,11 @@ admin
 password
 ```
 
-!Imagen
+¨Imagen 1¨
 
 ![alt_text](imagen1.png "image_tooltip")
+
+"Imagen 2"
 
 ![alt_text](imagen2.png "image_tooltip")
 
