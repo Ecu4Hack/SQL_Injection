@@ -32,10 +32,12 @@ Ahora vamos a instalar el docker compose (Opcional pero recomendado) si vas a de
 ```bash
 sudo apt install docker-compose -y
 
-Descarga la Imagen DVWA desde docker hub:
+Descarga la Imagen DVWA desde docker hub
+
 ```bash
 sudo docker pull vulnerables/web-dvwa
 ```
+
 Ejecuta DVWA en un contenedor:
 ```bash
 sudo docker run -d -p 80:80 vulnerables/web-dvwa
