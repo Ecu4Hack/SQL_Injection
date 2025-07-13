@@ -7,8 +7,9 @@ Descargar la ISO de Kali Linux X86_64 que pesa 4.1GB: https://www.kali.org/get-k
 
 # Instalacion de Kali y docker DVWA
 Instalación de Kali Linux en computadoras de escritorio y portátiles mediante archivos ".ISO" (x64/x86)
+```bash
 https://www-kali-org.translate.goog/docs/installation/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
-
+```
 *Una vez instalado la ISO del Kali Linux, desde la terminal usamos los siguientes comandos para actualizar la lista de paqueres disponibles e instalar las versiones mas recientes de los paquetes:
 ```bash
 #sudo apt update
