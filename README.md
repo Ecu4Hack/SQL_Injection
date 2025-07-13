@@ -31,7 +31,7 @@ sudo systemctl enable docker
 Ahora vamos a instalar el docker compose (Opcional pero recomendado) si vas a definir y ejecutar aplicaciones dockers con multiples contenedores.
 ```bash
 sudo apt install docker-compose -y
-
+```
 Descarga la Imagen DVWA desde docker hub
 
 ```bash
