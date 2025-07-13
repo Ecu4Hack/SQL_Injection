@@ -61,7 +61,7 @@ password
 ```
 Una vez dentro, ve a la pestaña "Setup / Reset DB" para inicializar la base de datos.
 
-Configuración de DVWA
+## Configuración de DVWA
 
 Acceda al elemento de menú “Seguridad DVWA” desde la barra lateral izquierda, cerca de la parte inferior. 
 
