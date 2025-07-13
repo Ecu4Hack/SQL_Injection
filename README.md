@@ -43,6 +43,14 @@ sudo docker run -d -p 80:80 vulnerables/web-dvwa
 
 #http://localhost
 
+Credenciales por defecto
+
+Usuario: admin
+
+Contraseña: password
+
+Una vez dentro, ve a la pestaña "Setup / Reset DB" para inicializar la base de datos.
+
 # Consultas SQL en pagina web
 
 
