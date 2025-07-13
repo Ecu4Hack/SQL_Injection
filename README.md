@@ -38,7 +38,7 @@ Descarga la Imagen DVWA desde docker hub
 sudo docker pull vulnerables/web-dvwa
 ```
 
-Ejecuta DVWA en un contenedor:
+Ejecuta DVWA en tu contenedor:
 ```bash
 sudo docker run -d -p 80:80 vulnerables/web-dvwa
 ```
