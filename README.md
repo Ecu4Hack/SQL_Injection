@@ -14,7 +14,7 @@ https://www-kali-org.translate.goog/docs/installation/?_x_tr_sl=en&_x_tr_tl=es&_
 #sudo apt update
 
 #sudo apt upgrade 
- 
+```bash 
 *Como siguiente paso, vamos a instalar Docker desde la terminal de Kali Linux:
 
 #sudo apt install docker.io -y
