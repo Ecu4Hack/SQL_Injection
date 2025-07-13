@@ -10,7 +10,7 @@ Instalación de Kali Linux en computadoras de escritorio y portátiles mediante 
 https://www-kali-org.translate.goog/docs/installation/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
 
 *Una vez instalado la ISO del Kali Linux, desde la terminal usamos los siguientes comandos para actualizar la lista de paqueres disponibles e instalar las versiones mas recientes de los paquetes:
-
+```bash
 #sudo apt update
 
 #sudo apt upgrade 
