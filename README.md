@@ -83,8 +83,18 @@ Esta opción es una extensión del nivel Medio, y los desarrolladores han implem
 
 Esta es la configuración predeterminada para la instalación de Kali Linux. Debe comparar el código fuente vulnerable con el código fuente relativamente seguro de los desarrolladores.
 
-## Consultas SQL en pagina web
+## Vamos a practicar con DVWA
 
 ```bash
 http://localhost:8080/login.php
+```
+Usaremos nivel bajo y usaremos las siguientes consultas sql que permitan identificar las vulnerabilidades del sitio
+```bash
+
+'
+```
+
+Es lo mmismo que hacer una consulta sql:
+```bash
+SELECT * FROM usuarios WHERE nombre = 'juan';
 ```
