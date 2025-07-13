@@ -12,12 +12,15 @@ https://www-kali-org.translate.goog/docs/installation/?_x_tr_sl=en&_x_tr_tl=es&_
 Una vez instalado desde la terminal de Kali usamos los siguientes comandos para actualizar la lista de paqueres disponibles e instalar las versiones mas recientes de los paquetes:
 
 sudo apt update
+
 sudo apt upgrade 
  
 como siguiente paso vamos a instalar el docker en el kali:
 
 sudo apt install docker.io -y
+
 sudo systemctl start docker
+
 sudo systemctl enable docker
 
 Ahora vamos a instalar el docker compose (Opcional pero recomendado)
