@@ -109,4 +109,4 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
 ```
 Puedes ver el video del ejemplo en el siguiente link:
 
-https://youtu.be/o-NlWanSXSg?si=6pga1_NDSWnkTpb1
+(estamos trabajando en aquello)
