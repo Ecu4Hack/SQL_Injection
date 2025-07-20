@@ -98,7 +98,7 @@ Esta es la configuración predeterminada para la instalación de Kali Linux. Deb
 ```bash
 http://localhost:8080/login.php
 ```
-Usaremos nivel bajo y usaremos las siguientes consultas sql que permitan identificar las vulnerabilidades del sitio
+Usaremos nivel bajo (slow) y usaremos las siguientes consultas sql que permitan identificar las vulnerabilidades del sitio
 ```bash
 
 '
@@ -108,6 +108,103 @@ Es lo mmismo que hacer una consulta sql:
 ```bash
 SELECT * FROM usuarios WHERE nombre = 'juan';
 ```
+
+<table>
+  <tr>
+   <td>Entrada Maliciosa
+   </td>
+   <td>Consulta SQL (Win / Linux)
+   </td>
+   <td>Descripcion
+   </td>
+  </tr>
+  <tr>
+   <td>SELECT * FROM users WHERE username = 'juan';
+   </td>
+   <td>win.eventdata.hashes
+   </td>
+   <td>Check existing IoCs in  process image file hash 
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 3
+   </td>
+   <td>win.eventdata.destinationIp / 
+<p>
+eventdata.destinationIp
+   </td>
+   <td>Check existing IoCs in  destination IP (if public IPv4)
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 6
+   </td>
+   <td>win.eventdata.hashes
+   </td>
+   <td>Check existing IoCs in  loaded driver file hash 
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 7
+   </td>
+   <td>win.eventdata.hashes
+   </td>
+   <td>Check existing IoCs in  loaded DLL file hash 
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 15
+   </td>
+   <td>win.eventdata.hashes
+   </td>
+   <td>Check existing IoCs in  downloaded file hash 
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 22
+   </td>
+   <td>win.eventdata.queryName
+   </td>
+   <td>Check existing IoCs in  queried hostname
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 23
+   </td>
+   <td>win.eventdata.hashes
+   </td>
+   <td>Check existing IoCs in  deleted file hash 
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 24
+   </td>
+   <td>win.eventdata.hashes
+   </td>
+   <td>Check existing IoCs in  clipboard content file hash 
+   </td>
+  </tr>
+  <tr>
+   <td>Sysmon event 25
+   </td>
+   <td>win.eventdata.hashes
+   </td>
+   <td>Check existing IoCs in  process file hash 
+   </td>
+  </tr>
+  <tr>
+   <td>Wazuh Syscheck (Files)
+   </td>
+   <td>syscheck.sha256_after
+   </td>
+   <td>Check existing IoCs in  files added/modified/removed (file hash)
+   </td>
+  </tr>
+</table>
+
+
+
+
 Puedes ver el video del ejemplo en el siguiente link:
 
 (estamos trabajando en aquello)
