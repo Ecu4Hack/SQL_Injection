@@ -98,9 +98,10 @@ Esta es la configuración predeterminada para la instalación de Kali Linux. Deb
 ```bash
 http://localhost:8080/login.php
 ```
-Usaremos nivel bajo (slow) y usaremos las siguientes consultas sql que permitan identificar las vulnerabilidades del sitio
+Usaremos nivel bajo (slow) y usaremos las siguientes consultas sql que permitan identificar las vulnerabilidades del sitio usando payloads:
+
 ```bash
-Payload:
+
 '
 ```
 
@@ -108,7 +109,6 @@ Es lo mismo que hacer una consulta sql:
 ```bash
 SELECT * FROM usuarios WHERE nombre = 'juan';
 ```
-SELECT * FROM users WHERE id = '$input'; 
 
 ```bash
 Payload
