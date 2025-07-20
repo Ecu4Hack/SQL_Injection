@@ -127,7 +127,7 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
    </td>
   </tr>
   <tr>
-   <td> ´´´bash 1' or 1=1# ´´´
+   <td> ```bash 1' or 1=1# ```bash
         </td>
    <td> SELECT * FROM users WHERE id = '$input';
 <p>
