@@ -132,7 +132,9 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
    <td> Hace una validación de si o si 
 <p>
    <td>1’: Cierra la comilla de la consulta SQL original.
-OR 1=1	Condición siempre verdadera, para forzar a devolver todas las filas.
+
+     OR 1=1	Condición siempre verdadera, para forzar a devolver todas las filas.
+
 #	Comentario en SQL (MySQL/MariaDB). Ignora el resto de la consulta.
    </td>
    <td> 
