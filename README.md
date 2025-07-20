@@ -128,13 +128,12 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
   </tr>
   <tr>
    <td> 1' or 1=1#
-     1’: Cierra la comilla de la consulta SQL original.
-     OR 1=1	Condición siempre verdadera, para forzar a devolver todas las filas.
-     #	Comentario en SQL (MySQL/MariaDB). Ignora el resto de la consulta.
-   </td>
+        </td>
    <td> Hace una validación de si o si 
 <p>
-eventdata.destinationIp
+1’: Cierra la comilla de la consulta SQL original.
+     OR 1=1	Condición siempre verdadera, para forzar a devolver todas las filas.
+     #	Comentario en SQL (MySQL/MariaDB). Ignora el resto de la consulta.
    </td>
    <td>Check existing IoCs in  destination IP (if public IPv4)
    </td>
