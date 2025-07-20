@@ -111,7 +111,7 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
 
 <table>
   <tr>
-   <td>Entrada Maliciosa
+   <td>Payload - Entrada maliciosa
    </td>
    <td>Consulta SQL (Win / Linux)
    </td>
@@ -127,9 +127,9 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
    </td>
   </tr>
   <tr>
-   <td> 1' or 1=1#
+   <td> ´´´ 1' or 1=1# ´´´
         </td>
-   <td> Hace una validación de si o si 
+   <td> SELECT * FROM users WHERE id = '$input';
 <p>
    <td>1’: Cierra la comilla de la consulta SQL original.
 
