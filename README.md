@@ -127,9 +127,9 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
    </td>
   </tr>
   <tr>
-   <td> 1' 1 OR 1 = 1 --
+   <td> 1' or 1=1#
    </td>
-   <td>win.eventdata.destinationIp / 
+   <td> Hace una validación de si o si 
 <p>
 eventdata.destinationIp
    </td>
