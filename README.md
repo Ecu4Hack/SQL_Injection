@@ -127,7 +127,7 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
    </td>
   </tr>
   <tr>
-   <td> 1' = 1 --
+   <td> 1' 1 OR 1 = 1 --
    </td>
    <td>win.eventdata.destinationIp / 
 <p>
