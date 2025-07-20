@@ -119,15 +119,15 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
    </td>
   </tr>
   <tr>
+   <td> '
+   </td>
    <td>SELECT * FROM users WHERE username = 'juan';
    </td>
-   <td>win.eventdata.hashes
-   </td>
-   <td>Check existing IoCs in  process image file hash 
+   <td>Existe una vulnerabilidad en el código del sitio web DVWA 
    </td>
   </tr>
   <tr>
-   <td>Sysmon event 3
+   <td> 1' = 1 --
    </td>
    <td>win.eventdata.destinationIp / 
 <p>
