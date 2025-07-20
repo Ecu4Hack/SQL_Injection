@@ -100,6 +100,8 @@ http://localhost:8080/login.php
 ```
 Usaremos nivel bajo (slow) y usaremos las siguientes consultas sql que permitan identificar las vulnerabilidades del sitio usando payloads:
 
+1)
+
 ```bash
 
 '
@@ -110,13 +112,16 @@ Es lo mismo que hacer una consulta sql:
 SELECT * FROM usuarios WHERE nombre = 'juan';
 ```
 
+2)
 ```bash
 '1' OR 1=1#' AND password = '';
 ```
 
 Es lo mismo que hacer una consulta sql:
 ```bash
-SELECT * FROM users WHERE username = '1' OR 1=1#' AND password = '';
+
+SELECT * FROM users WHERE username = '$usuario' AND password = '$clave';
+
 ```
 
 <table>
