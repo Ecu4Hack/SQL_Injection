@@ -111,8 +111,7 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
 ```
 
 ```bash
-Payload
-SELECT * FROM users WHERE username = '1' OR 1=1#' AND password = '';
+'1' OR 1=1#' AND password = '';
 ```
 
 Es lo mismo que hacer una consulta sql:
