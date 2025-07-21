@@ -156,6 +156,8 @@ SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM use
    </td>
    <td>Descripcion
    </td>
+    <td> Cómo evitar
+   </td>
   </tr>
   <tr>
    <td> '
