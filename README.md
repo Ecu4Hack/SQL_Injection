@@ -164,7 +164,8 @@ SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM use
    </td>
    <td>SELECT * FROM users WHERE username = 'juan';
    </td>
-   <td>Existe una vulnerabilidad en el código del sitio web DVWA 
+   <td> La comilla simple ' es un carácter de cierre de cadenas de texto en SQL. 
+     En el contexto de una inyección SQL, se usa para salir de una cadena de texto dentro de una consulta y así poder insertar código malicioso. 
    </td>
   </tr>
   <tr>
