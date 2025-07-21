@@ -207,50 +207,29 @@ FROM users	Tabla objetivo que contiene las credenciales.
 #Comentario en SQL (MySQL), ignora el resto de la consulta.
    </td>
   </tr>
-  <tr>
-   <td>yyyyyyyy
-   </td>
-   <td>yyyyyyyyyy
-   </td>
-   <td>yyyyyyyyyyy
-   </td>
-  </tr>
-  <tr>
-   <td>zzzzzz
-   </td>
-   <td>zzzzzzzzzzzzzzz
-   </td>
-   <td>zzzzzzzzzzzzzzzzzzzzzz
-   </td>
-  </tr>
-  <tr>
-   <td>aaaaaa
-   </td>
-   <td>aaaaaaa
-   </td>
-   <td>aaaaaaaaaaaaaaaaa
-   </td>
-  </tr>
-  <tr>
-   <td>aaaaaaaaaaaaaaaaaaa
-   </td>
-   <td>bbbbbbbbb
-   </td>
-   <td>bbbbbbbbbbbbbbbbbbbbbbbbb
-   </td>
-  </tr>
-  <tr>
-   <td>Wazuh Syscheck (Files)
-   </td>
-   <td>syscheck.sha256_after
-   </td>
-   <td>Check existing IoCs in  files added/modified/removed (file hash)
-   </td>
-  </tr>
 </table>
 
-## Como obtener las cookies del sitio web 
+### Como obtener las cookies del sitio web 
 
+Abre DVWA en tu navegador e inicia sesión.
+
+
+Haz clic derecho en cualquier parte de la página y selecciona "Inspeccionar" (o presiona F12).
+
+
+Ve a la pestaña "Application" (en Firefox es "Almacenamiento" o "Storage").
+
+
+En el menú izquierdo, selecciona Cookies → y haz clic sobre localhost o la IP de DVWA.
+
+
+Busca la cookie llamada algo como:
+
+
+    PHPSESSID (muy común en DVWA)
+
+    
+    security (en algunos casos indica el nivel: low, medium, high)
 
 
 ## Usando SQLmap
