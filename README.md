@@ -123,6 +123,18 @@ Es lo mismo que hacer una consulta sql:
 SELECT * FROM users WHERE username = '$usuario' AND password = '$clave';
 
 ```
+#### Payload 3:
+```bash
+1' ORDER BY 1 -- -
+
+```
+
+Es lo mismo que hacer una consulta sql:
+```bash
+
+SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
+
+```
 
 <table>
   <tr>
