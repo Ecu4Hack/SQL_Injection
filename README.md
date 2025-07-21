@@ -175,43 +175,43 @@ SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
    </td>
   </tr>
   <tr>
-   <td>Sysmon event 15
+   <td>xxxxxxxxx
    </td>
-   <td>win.eventdata.hashes
+   <td>xxxxxxxxxx
    </td>
-   <td>Check existing IoCs in  downloaded file hash 
-   </td>
-  </tr>
-  <tr>
-   <td>Sysmon event 22
-   </td>
-   <td>win.eventdata.queryName
-   </td>
-   <td>Check existing IoCs in  queried hostname
+   <td>xxxxxxxxxxxxx
    </td>
   </tr>
   <tr>
-   <td>Sysmon event 23
+   <td>yyyyyyyy
    </td>
-   <td>win.eventdata.hashes
+   <td>yyyyyyyyyy
    </td>
-   <td>Check existing IoCs in  deleted file hash 
-   </td>
-  </tr>
-  <tr>
-   <td>Sysmon event 24
-   </td>
-   <td>win.eventdata.hashes
-   </td>
-   <td>Check existing IoCs in  clipboard content file hash 
+   <td>yyyyyyyyyyy
    </td>
   </tr>
   <tr>
-   <td>Sysmon event 25
+   <td>zzzzzz
    </td>
-   <td>win.eventdata.hashes
+   <td>zzzzzzzzzzzzzzz
    </td>
-   <td>Check existing IoCs in  process file hash 
+   <td>zzzzzzzzzzzzzzzzzzzzzz
+   </td>
+  </tr>
+  <tr>
+   <td>aaaaaa
+   </td>
+   <td>aaaaaaa
+   </td>
+   <td>aaaaaaaaaaaaaaaaa
+   </td>
+  </tr>
+  <tr>
+   <td>aaaaaaaaaaaaaaaaaaa
+   </td>
+   <td>bbbbbbbbb
+   </td>
+   <td>bbbbbbbbbbbbbbbbbbbbbbbbb
    </td>
   </tr>
   <tr>
