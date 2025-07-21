@@ -211,22 +211,27 @@ FROM users	Tabla objetivo que contiene las credenciales.
 
 ### Como obtener las cookies del sitio web 
 
-Paso 1: Abre DVWA en tu navegador e inicia sesión.
+#### Paso 1: 
 
+Abre DVWA en tu navegador e inicia sesión.
 
-Paso 2: Haz clic derecho en cualquier parte de la página y selecciona "Inspeccionar" (o presiona F12).
+#### Paso 2: 
 
+Haz clic derecho en cualquier parte de la página y selecciona "Inspeccionar" (o presiona F12).
 
-Paso 3: Ve a la pestaña "Application" (en Firefox es "Almacenamiento" o "Storage").
+#### Paso 3: 
 
+Ve a la pestaña "Application" (en Firefox es "Almacenamiento" o "Storage").
 
-Paso 4: En el menú izquierdo, selecciona Cookies → y haz clic sobre localhost o la IP de DVWA.
+#### Paso 4: 
+
+En el menú izquierdo, selecciona Cookies → y haz clic sobre localhost o la IP de DVWA.
 
 Busca la cookie llamada algo como:
 
-a) PHPSESSID (muy común en DVWA)
+* PHPSESSID (muy común en DVWA)
     
-b) security (en algunos casos indica el nivel: low, medium, high)
+* security (en algunos casos indica el nivel: low, medium, high)
 
 ## Usando SQLmap
 
