@@ -159,7 +159,8 @@ SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
    <td> SELECT * FROM users WHERE id = '$input';
 <p>
 <td>1’:Cierra la comilla de la consulta SQL original.
-  OR 1=1:Condición siempre verdadera, para forzar a devolver todas las filas.
+  
+OR 1=1:Condición siempre verdadera, para forzar a devolver todas las filas.
   
 #:Comentario en SQL (MySQL/MariaDB). Ignora el resto de la consulta.
    </td>
@@ -172,16 +173,26 @@ SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
    <td>SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
    </td>
    <td>1'	Cierra la cadena esperada en la consulta.
+
 ORDER BY 1	Intenta ordenar los resultados por la primera columna.
+
 -- -	Comenta el resto de la consulta, evitando errores de sintaxis. 
    </td>
   </tr>
   <tr>
-   <td>xxxxxxxxx
+   <td>' UNION SELECT user, password FROM users# 
    </td>
-   <td>xxxxxxxxxx
+   <td>SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM users#';
    </td>
-   <td>xxxxxxxxxxxxx
+   <td>'	Cierra el valor original del campo.
+     
+UNION SELECT	Combina el resultado de dos consultas SELECT.
+
+user, password	Columnas que queremos extraer de la tabla users.
+
+FROM users	Tabla objetivo que contiene las credenciales.
+
+#	Comentario en SQL (MySQL), ignora el resto de la consulta.
    </td>
   </tr>
   <tr>
