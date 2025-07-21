@@ -192,7 +192,7 @@ user, password	Columnas que queremos extraer de la tabla users.
 
 FROM users	Tabla objetivo que contiene las credenciales.
 
-#	Comentario en SQL (MySQL), ignora el resto de la consulta.
+#Comentario en SQL (MySQL), ignora el resto de la consulta.
    </td>
   </tr>
   <tr>
