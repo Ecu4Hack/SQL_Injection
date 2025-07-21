@@ -171,7 +171,9 @@ SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
    </td>
    <td>SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
    </td>
-   <td>Check existing IoCs in  loaded DLL file hash 
+   <td>1'	Cierra la cadena esperada en la consulta.
+ORDER BY 1	Intenta ordenar los resultados por la primera columna.
+-- -	Comenta el resto de la consulta, evitando errores de sintaxis. 
    </td>
   </tr>
   <tr>
