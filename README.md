@@ -118,7 +118,7 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
 
 #### Payload 2:
 ```bash
-'1' OR 1=1#' AND password = '';
+1' or 1=1#
 ```
 *Imagen 5*
 
