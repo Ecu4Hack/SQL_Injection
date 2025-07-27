@@ -164,7 +164,7 @@ SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM use
 
 ![alt_text](imagen7.png "image_tooltip")
 
-En la siguiente tabla se describe la siguiente información:
+La siguiente tabla proporciona una descripción más detallada de dicha vulnerabilidad.:
 
 <table>
   <tr>
@@ -253,6 +253,10 @@ Busca la cookie llamada algo como:
 * PHPSESSID (muy común en DVWA)
     
 * security (en algunos casos indica el nivel: low, medium, high)
+
+*Imagen 8*
+
+![alt_text](cookies.png "image_tooltip")
 
 ## Usando SQLmap
 
