@@ -109,7 +109,7 @@ Usaremos nivel bajo (slow) y usaremos las siguientes consultas sql que permitan 
 
 *Imagen 3*
 
-![alt_text](imagen 3.png "image_tooltip")
+![alt_text](imagen3.png "image_tooltip")
 
 Es lo mismo que hacer una consulta sql:
 ```bash
