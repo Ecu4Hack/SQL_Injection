@@ -160,6 +160,9 @@ Es lo mismo que hacer una consulta sql:
 SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM users#';
 
 ```
+*Imagen 6*
+
+![alt_text](imagen6.png "image_tooltip")
 
 <table>
   <tr>
