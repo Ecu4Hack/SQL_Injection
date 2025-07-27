@@ -1,4 +1,4 @@
-# SQL Injection usando Kali con docker DVWA
+# SQL Injection usando Kali Linux + docker DVWA + SqlMap
 #### By Patricia Sagbay
 
 Hoy en día existen muchísimos sitios que ofrecen cursos y capacitaciones de todo tipo. Para alguien que recién comienza en el mundo de la ciberseguridad, tanta información puede resultar abrumadora. Por eso nace este espacio como un aporte a la comunidad de habla hispana, con el objetivo de orientar, compartir conocimientos y facilitar el aprendizaje paso a paso.
