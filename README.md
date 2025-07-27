@@ -164,6 +164,12 @@ SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM use
 
 ![alt_text](imagen6.png "image_tooltip")
 
+Hemos conseguido la siguiente información:
+
+*Imagen 7*
+
+![alt_text](imagen7.png "image_tooltip")
+
 <table>
   <tr>
    <td>Payload
