@@ -160,15 +160,11 @@ Es lo mismo que hacer una consulta sql:
 SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM users#';
 
 ```
-*Imagen 6*
+*Imagen 7*
 
 ![alt_text](imagen7.png "image_tooltip")
 
 Hemos conseguido la siguiente información:
-
-*Imagen 7*
-
-![alt_text](imagen8.png "image_tooltip")
 
 <table>
   <tr>
