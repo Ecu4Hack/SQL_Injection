@@ -164,7 +164,7 @@ SELECT id, name FROM products WHERE id = '' UNION SELECT user, password FROM use
 
 ![alt_text](imagen7.png "image_tooltip")
 
-Hemos conseguido la siguiente información:
+En la siguiente tabla se describe la siguiente información:
 
 <table>
   <tr>
