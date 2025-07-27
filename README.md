@@ -120,7 +120,7 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
 ```bash
 1' or 1=1#
 ```
-*Imagen 5*
+*Imagen 4*
 
 ![alt_text](imagen3.png "image_tooltip")
 
@@ -135,7 +135,7 @@ SELECT * FROM users WHERE username = '$usuario' AND password = '$clave';
 1' ORDER BY 1 -- -
 
 ```
-*Imagen 6*
+*Imagen 5*
 
 ![alt_text](imagen4.png "image_tooltip")
 
@@ -150,6 +150,9 @@ SELECT * FROM users WHERE id = '1' ORDER BY 1 -- -';
 ' UNION SELECT user, password FROM users#
 
 ```
+*Imagen 5*
+
+![alt_text](imagen5.png "image_tooltip")
 
 Es lo mismo que hacer una consulta sql:
 ```bash
