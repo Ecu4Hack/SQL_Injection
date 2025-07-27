@@ -124,8 +124,6 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
 
 ![alt_text](imagen3.png "image_tooltip")
 
-
-
 Es lo mismo que hacer una consulta sql:
 ```bash
 
@@ -137,6 +135,9 @@ SELECT * FROM users WHERE username = '$usuario' AND password = '$clave';
 1' ORDER BY 1 -- -
 
 ```
+*Imagen 6*
+
+![alt_text](imagen4.png "image_tooltip")
 
 Es lo mismo que hacer una consulta sql:
 ```bash
