@@ -261,6 +261,9 @@ Busca la cookie llamada algo como:
 ## Usando SQLmap
 
 SQLMap es una herramienta de código abierto y uso automatizado para detectar y explotar vulnerabilidades de inyección SQL (SQL Injection) en aplicaciones web.
+*Imagen 9*
+
+![alt_text](sqlmap.png "image_tooltip")
 
 #### Enumerar la BD:
 ```bash
