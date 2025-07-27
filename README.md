@@ -120,6 +120,11 @@ SELECT * FROM usuarios WHERE nombre = 'juan';
 ```bash
 '1' OR 1=1#' AND password = '';
 ```
+*Imagen 5*
+
+![alt_text](imagen3.png "image_tooltip")
+
+
 
 Es lo mismo que hacer una consulta sql:
 ```bash
